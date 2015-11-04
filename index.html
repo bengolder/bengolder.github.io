@@ -1,1 +1,18 @@
-Also a test.
+---
+layout: default
+tab: Ben Golder
+title: Ben Golder
+slug: index
+---
+
+<nav class="link-menu">
+  <ul>
+    {% for link in site.data.main_menu.external %}
+    <li>
+      <a class="menu-link" href="{{ link.url }}">{{ link.display }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>
+
+{% include projects.html %}

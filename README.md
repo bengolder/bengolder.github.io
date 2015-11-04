@@ -1,4 +1,8 @@
 bengolder.github.com
 ====================
 
-my github site
+This is the code to my personal website.
+
+It utilizes github pages and Jekyll.
+
+

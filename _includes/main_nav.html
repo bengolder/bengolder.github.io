@@ -1,0 +1,5 @@
+<nav class="main-menu">
+  <ul>
+    {% for link in site.data.main_menu.local %}<li>{% if page.slug == link.slug %}<span class="current-page menu-link">{{ link.display }}</span>{% else %}<a class="menu-link" href="{{ link.url }}">{{ link.display }}</a>{% endif %}</li>{% endfor %}
+  </ul>
+</nav>

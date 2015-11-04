@@ -1,0 +1,27 @@
+<ul class="projects-list">
+  {% for project_hash in site.data.projects %}
+  {% assign project = project_hash[1] %}
+  <li class="project-listing">
+    <h2 class="project-listing-title">{{ project.title }}</h2>
+    {% if project.tagline %}
+    <p class="project-listing-tagline">{{ project.tagline }}</p>
+    {% endif %}
+    {% if project.thumbnail %}
+    <img src="{{ project.thumbnail }}" alt="Preview image of {{ project.title }}" class="project-listing-preview">
+    {% endif %}
+    <div class="project-link-icons">
+    {% if project.github %}
+    <a href="{{ project.github }}" class="project-link-icon">
+      Github
+    </a>
+    {% endif %}
+    
+    {% if project.link %}
+    <a href="{{ project.link }}" class="project-link-icon">
+      Link
+    </a>
+    {% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ul>

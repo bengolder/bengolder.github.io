@@ -1,0 +1,13 @@
+local:
+  - display: Email
+    url: mailto:benjamin.j.golder@gmail.com
+  - display: GitHub
+    url: https://github.com/bengolder
+  - display: Sketches
+    url: http://bensketches.tumblr.com/
+  - display: Twitter
+    url: https://twitter.com/bgolder
+  - display: Pinterest
+    url: https://www.pinterest.com/beng/
+  - display: LinkedIn
+    url: https://www.linkedin.com/in/benjamingolder

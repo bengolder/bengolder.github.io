@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.tab }}</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link href="/css/main.css" rel="stylesheet">
+  {% for css in page.css %}
+  <link href="/css/{{ css }}" rel="stylesheet">
+  {% endfor %}
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1> 
+        <a href="/" class="home">{{ page.title }}</a>
+      </h1>
+      {% include main_nav.html %}
+    </header>
+    <div class="main">
+    {{ content }}
+    </div>
+  </div>
+  {% for js in page.js %}
+  <script type="text/javascript" src="/js/{{ js }}"></script>
+  {% endfor %}
+</body>
+</html>

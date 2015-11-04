@@ -1,0 +1,66 @@
+miami-dade-inspectors:
+  title: Miami-Dade Inspector Feedback
+  date: 2015
+  slug: mdc-inspectors
+  tagline: A web application that collects feedback on building inspections in Miami-Dade County
+  github: https://github.com/codeforamerica/mdc-inspectors
+
+comport:
+  title: Comport
+  date: 2015
+  slug: comport
+  tagline: A website for visualizing data on the use of force by police
+  github: https://github.com/codeforamerica/comport
+  link: https://www.projectcomport.org/department/IMPD/complaints
+
+zipscreen:
+  title: ZipScreen
+  date: 2015
+  slug: zipscreen
+  tagline: A web application to ease financial screening at safety-net health services in Richmond, VA
+  link: https://demo-screener.herokuapp.com/
+  github: https://github.com/codeforamerica/rva-screening
+
+duspexplorer:
+  title: DUSP Explorer
+  date: 2014
+  slug: duspexplorer
+  tagline: A website of visualizations about research at MIT's Department of Urban Studies and Planning
+  link: http://duspexplorer.mit.edu/
+  github: https://github.com/bengolder/explorer
+
+lt-viz:
+  title: SimMobility Long Term
+  date: 2014
+  slug: lt-viz
+  tagline: A web application for visualizing the results of the Singapore SimMobility Long Term urban simulation model
+  link: https://137.132.22.82:15045/
+
+11-521:
+  title: 11.521 Coursework
+  date: 2014
+  slug: 11-521
+  tagline: Documentation of my coursework for Spatial Database Management and Avanced GIS at MIT.
+  link: http://web.mit.edu/bgolder/www/11.521/
+
+wanderu:
+  title: Wanderu
+  date: 2013
+  slug: wanderu
+  tagline: User interface design prototypes for an inter-city bus travel website
+  link: https://wanderu.com
+
+city-digits:
+  title: City Digits
+  date: 2013
+  slug: city-digits
+  tagline: An educational web application for mapping interviews and learning about the NY State Lottery
+  github: https://github.com/bengolder/citydigits
+
+local-code:
+  title: Local Code
+  date: 2011
+  slug: local-code
+  tagline: A design study envisioning the reuse of distributed vacant public properties.
+  github: https://github.com/localcode
+

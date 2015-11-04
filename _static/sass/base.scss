@@ -1,0 +1,158 @@
+// clear
+* { padding: 0; margin: 0; box-sizing: border-box; }
+ul, ol { list-style-type: none; }
+a { text-decoration: none; }
+
+a { color: #0074D9; }
+a:visited { color: #0074D9; }
+a:hover { color: #F012BE; }
+a:focus { color: #F012BE; }
+a:active { color: #F012BE; }
+
+header h1 {
+  float: left;
+}
+header h1 a {
+  display: inline-block;
+  width: 24rem;
+  padding: 0.5rem 1rem;
+  color: inherit;
+}
+header:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.main-menu {
+  float: left;
+  font-size: 2rem;
+}
+.main-menu li {
+  display: inline-block;
+}
+.main-menu .menu-link {
+  font-size: 1rem;
+}
+.menu-link {
+  width: 8rem;
+  display: inline-block;
+  display: inline-block;
+  padding: 1rem;
+}
+
+span.current-page {
+  color: #fff;
+  background-color: #aaa;
+}
+
+
+
+.projects-list:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.project-listing {
+  margin-top: 1.5rem;
+  padding: 0 1rem;
+  max-width: 24rem;
+  float: left;
+  height: 7.5rem;
+}
+
+.project-listing-title {
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 1.5rem;
+}
+
+a.project-link-icon {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+}
+
+.project-link-icon + .project-link-icon {
+  margin-left: 1em;
+}
+
+// Breakpoints
+// mobile is default
+// base typography
+html, body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.5rem;
+  color: #111111;
+}
+
+header h1 {
+  font-weight: 100;
+}
+
+.container {
+  padding: 1rem 0;
+  margin: 0 auto;
+  max-width: 24rem;
+}
+
+header h1 {
+  padding-bottom: 1rem;
+}
+.main-menu {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+// tablet
+@media (min-width: 48rem) {
+  // two columns
+  .container {
+    max-width: 48rem;
+  }
+  header { 
+    margin-top: 3rem;
+  }
+  .main-menu {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 100%;
+  }
+}
+
+// desktop
+@media (min-width: 72rem) {
+  // three columns
+  .container {
+    max-width: 72rem;
+  }
+  header { 
+    margin-top: 9rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 2px solid black;
+    margin-bottom: 0.6rem;
+  }
+  header h1 {
+    padding-bottom: 0rem;
+  }
+  .main-menu {
+    border: 0;
+    width: auto;
+  }
+}
+
+// big desktop
+@media (min-width: 96rem) {
+  // layout
+  // rremains three columns
+  header { 
+    margin-top: 12rem;
+  }
+}
+
