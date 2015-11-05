@@ -12,12 +12,15 @@ a:active { color: #F012BE; }
 header h1 {
   float: left;
 }
-header h1 a {
+a.home {
   display: inline-block;
-  width: 24rem;
   padding: 0.5rem 1rem;
   color: inherit;
 }
+a.home:hover {
+  color: #F012BE;
+}
+
 header:after {
   content: " ";
   display: block;
@@ -36,7 +39,7 @@ header:after {
   font-size: 1rem;
 }
 .menu-link {
-  width: 8rem;
+  width: 7rem;
   display: inline-block;
   display: inline-block;
   padding: 1rem;
@@ -87,7 +90,7 @@ html, body {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-size: 15px;
-  line-height: 1.5rem;
+  line-height: 22.5px;
   color: #111111;
 }
 
@@ -119,10 +122,16 @@ header h1 {
   header { 
     margin-top: 3rem;
   }
+  header h1 a {
+    width: 24rem;
+  }
   .main-menu {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     width: 100%;
+  }
+  .menu-link {
+    width: 8rem;
   }
 }
 
