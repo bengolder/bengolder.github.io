@@ -10,15 +10,13 @@ comport:
   date: 2015
   slug: comport
   tagline: A website for visualizing data on the use of force by police
-  github: https://github.com/codeforamerica/comport
   link: https://www.projectcomport.org/department/IMPD/complaints
 
-zipscreen:
-  title: ZipScreen
+quickscreen:
+  title: QuickScreen
   date: 2015
   slug: zipscreen
   tagline: A web application to ease financial screening at safety-net health services in Richmond, VA
-  link: https://demo-screener.herokuapp.com/
   github: https://github.com/codeforamerica/rva-screening
 
 duspexplorer:
@@ -33,8 +31,7 @@ lt-viz:
   title: SimMobility Long Term
   date: 2014
   slug: lt-viz
-  tagline: A web application for visualizing the results of the Singapore SimMobility Long Term urban simulation model
-  link: https://137.132.22.82:15045/
+  tagline: A web application for visualizing the results of the Singapore SimMobility Long Term urban simulation model.
 
 11-521:
   title: 11.521 Coursework
