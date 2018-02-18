@@ -1,3 +1,27 @@
+michigan-benefits:
+  title: Michigan Benefits
+  date: 2018
+  slug: michigan-benefits
+  tagline: A service assisting Michigan residents with applying for Food Assistance and Medicaid
+  link: https://www.michiganbenefits.org/
+  github: https://github.com/codeforamerica/michigan-benefits
+
+roadmap:
+  title: Roadmap to Reentry
+  date: 2018
+  slug: roadmap
+  tagline: A California legal guide for people in reentry and their advocates.
+  link: http://roadmap.rootandrebound.org/
+  github: https://github.com/rootandrebound/roadmap-to-html
+
+clearmyrecord:
+  title: Clear My Record
+  date: 2017
+  slug: clearmyrecord
+  tagline: A digital service for assisting Californians with dismissing and reducing their old convictions
+  link: https://www.clearmyrecord.org
+  github: https://github.com/codeforamerica/intake
+
 miami-dade-inspectors:
   title: Miami-Dade Inspector Feedback
   date: 2015
