@@ -10,7 +10,7 @@ roadmap:
   title: Roadmap to Reentry
   date: 2018
   slug: roadmap
-  tagline: A California legal guide for people in reentry and their advocates.
+  tagline: A California legal guide for people in reentry and their advocates
   link: http://roadmap.rootandrebound.org/
   github: https://github.com/rootandrebound/roadmap-to-html
 
@@ -18,7 +18,7 @@ clearmyrecord:
   title: Clear My Record
   date: 2017
   slug: clearmyrecord
-  tagline: A digital service for assisting Californians with dismissing and reducing their old convictions
+  tagline: A service assisting Californians with dismissing and reducing their old convictions
   link: https://www.clearmyrecord.org
   github: https://github.com/codeforamerica/intake
 
@@ -55,14 +55,7 @@ lt-viz:
   title: SimMobility Long Term
   date: 2014
   slug: lt-viz
-  tagline: A web application for visualizing the results of the Singapore SimMobility Long Term urban simulation model.
-
-11-521:
-  title: 11.521 Coursework
-  date: 2014
-  slug: 11-521
-  tagline: Documentation of my coursework for Spatial Database Management and Avanced GIS at MIT.
-  link: http://web.mit.edu/bgolder/www/11.521/
+  tagline: A web application for visualizing the results of the Singapore SimMobility Long Term urban simulation model
 
 wanderu:
   title: Wanderu
@@ -82,6 +75,7 @@ local-code:
   title: Local Code
   date: 2011
   slug: local-code
-  tagline: A design study envisioning the reuse of distributed vacant public properties.
+  tagline: A design study envisioning the reuse of distributed vacant public properties
   github: https://github.com/localcode
+  link: http://demonchaux.com/filter/Local-Code
 
